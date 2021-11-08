@@ -2,10 +2,12 @@
 
 """The setup script."""
 
+#  Copyright (c) 2021. setup.py is a part of the ''inspyre-toolbox.clipman' project by Inspyre Softworks D.O. and is licensed under the MIT License. Feel free to copy, share, distribute any code from this project  as you please. If you do; please share where you got it.
+
 import codecs
 import os
 
-from setuptools import setup, find_packages
+from setuptools import find_packages, setup
 
 about = {}
 
@@ -19,8 +21,11 @@ with codecs.open('HISTORY.rst') as history_file:
     history = history_file.read()
 
 requirements = [
-        'inspyre-toolbox==1.0a7',
-        'inspy-logger==2.1a14'
+        'inspyre-toolbox>=1.0a7',
+        'inspy-logger>=2.1a14',
+        'PySimpleGUI',
+        'PySimpleGUIQt',
+        'clipboard'
         ]
 
 extras = {
