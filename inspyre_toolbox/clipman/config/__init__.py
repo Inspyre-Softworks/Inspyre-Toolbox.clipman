@@ -28,9 +28,8 @@ if DEV_UNLOCK :
 
 ARGS = arg_parser.parse_args()
 
-if DEV_UNLOCK :
-    if ARGS.dev_mode :
-        ARGS.log_level = 'debug'
+if DEV_UNLOCK and ARGS.dev_mode:
+    ARGS.log_level = 'debug'
 
 ISL = InspyLogger(PROG, ARGS.log_level)
 

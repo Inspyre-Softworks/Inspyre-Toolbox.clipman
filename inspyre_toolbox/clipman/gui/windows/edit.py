@@ -14,7 +14,7 @@ class EditPasteWindow :
         self.content = clipboard_entry
     
     
-    def create_layout(self) :
+    def create_layout(self):
         layout = [
                 [
                         gui.Text("Edit the entry text below:")
@@ -49,10 +49,9 @@ class EditPasteWindow :
                                 )
                         ]
                 ]
-        if DEV_UNLOCK :
-            if ARGS.dev_mode :
-                layout.insert(-1, [gui.Button('Unlock All Buttons', key='EDIT-PASTE-WIN_UNLOCK')])
-        
+        if DEV_UNLOCK and ARGS.dev_mode:
+            layout.insert(-1, [gui.Button('Unlock All Buttons', key='EDIT-PASTE-WIN_UNLOCK')])
+
         self.layout = layout
     
     
