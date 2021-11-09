@@ -15,13 +15,11 @@ class MainWindow(object) :
         self.disabled_button_prefixes = ['edit', 'copy', 'del']
     
     
-    def create_layout(self) :
+    def create_layout(self):
         self.layout = [
                 [gui.Text("Below are your latest clipboard entries")]
                 ]
-        counter = 0
-        for entry in history :
-            counter += 1
+        for counter, entry in enumerate(history, start=1):
             print(f'Entry: {entry}')
             print(counter)
             entry_layout = [
@@ -38,7 +36,7 @@ class MainWindow(object) :
                 gui.Button('Delete Entry', disabled=True, key='DEL_BUTTON'),
                 gui.Button('Clear History', disabled=True, key='CLEAR-HIST_BUTTON'),
                 gui.Button('Close Window', key='CLOSE_BUTTON')
-                
+
                 ]
         self.layout.append(button_layout)
     

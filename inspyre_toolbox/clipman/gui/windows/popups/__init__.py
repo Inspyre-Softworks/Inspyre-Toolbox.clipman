@@ -3,7 +3,7 @@ from inspyre_toolbox.clipman.config import LOG_DEVICE
 from PySimpleGUI import PopupOKCancel
 
 
-def confirm_action(question: str, action: str = None) :
+def confirm_action(question: str, action: str = None):
     """
     Produce a popup that confirms some action with the end-user.
     
@@ -32,8 +32,5 @@ def confirm_action(question: str, action: str = None) :
             title=f'Confirm {action}',
             keep_on_top=True
             )
-    
-    if answer == 'OK' :
-        return True
-    else :
-        return False
+
+    return answer == 'OK'
