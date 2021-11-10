@@ -6,7 +6,7 @@ __title__ = "inspyre_toolbox.clipman"
 __summary__ = "Keep a specified number of previous clipboard_history entries"
 __url__ = "https://github.com/tayjaybabee/inspyre_toolbox.clipman"
 
-__version__ = '1.0.0-dev1'
+__version__ = '1.0.0-dev4'
 
 __author__ = "Taylor-Jayde Blackstone"
 __email__ = "t.blackstone@inspyre.tech"
