@@ -1,5 +1,20 @@
 # Changelog
 
+## [Unreleased](https://github.com/Inspyre-Softworks/Inspyre-Toolbox.clipman/tree/HEAD)
+
+[Full Changelog](https://github.com/Inspyre-Softworks/Inspyre-Toolbox.clipman/compare/v1.0.0-dev2...HEAD)
+
+**Merged pull requests:**
+
+- Create
+  python-publish.yml [\#5](https://github.com/Inspyre-Softworks/Inspyre-Toolbox.clipman/pull/5) ([tayjaybabee](https://github.com/tayjaybabee))
+- Dev \(Sourcery
+  refactored\) [\#4](https://github.com/Inspyre-Softworks/Inspyre-Toolbox.clipman/pull/4) ([sourcery-ai[bot]](https://github.com/apps/sourcery-ai))
+-
+Dev [\#3](https://github.com/Inspyre-Softworks/Inspyre-Toolbox.clipman/pull/3) ([tayjaybabee](https://github.com/tayjaybabee))
+- Config file for
+  pyup.io [\#2](https://github.com/Inspyre-Softworks/Inspyre-Toolbox.clipman/pull/2) ([pyup-bot](https://github.com/pyup-bot))
+
 ## [v1.0.0-dev2](https://github.com/Inspyre-Softworks/Inspyre-Toolbox.clipman/tree/v1.0.0-dev2) (2021-11-09)
 
 [Full Changelog](https://github.com/Inspyre-Softworks/Inspyre-Toolbox.clipman/compare/v1.0.0...v1.0.0-dev2)
